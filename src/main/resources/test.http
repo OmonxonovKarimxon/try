@@ -1,0 +1,11 @@
+POST localhost:8080/user/create
+Content-Type: application/json
+
+{
+  "name":"karimxon" ,
+  "userName": "osk",
+  "password": "1234567"
+}
+
+###
+GET localhost:8080/user/get/1
